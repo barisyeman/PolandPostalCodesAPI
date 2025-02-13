@@ -15,9 +15,9 @@ const db = mysql.createConnection({
 
 db.connect((err) => {
   if (err) {
-    console.error("Veritabanı bağlantı hatası:", err);
+    console.error("Database connection error:", err);
   } else {
-    console.log("MySQL bağlantısı başarılı");
+    console.log("MySQL connection successful");
   }
 });
 
